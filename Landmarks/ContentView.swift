@@ -14,8 +14,8 @@ struct ContentView: View {
                 .frame(height:400)
                 .ignoresSafeArea(edges: .top)
             CircleImage()
-                .offset(y:-290)
-                .padding(.bottom, -400)
+                .offset(y:-310)
+                .padding(.bottom, -1000)
             VStack(alignment: .leading){
                 Text("Wenter falls!")
                     .font(.title)
